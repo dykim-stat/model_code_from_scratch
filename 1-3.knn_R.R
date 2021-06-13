@@ -24,8 +24,4 @@ nearest_neighbors = function(x, obs, k, FUN)
   dist = apply(x,1,FUN, obs)
   
   # Find closest
-  
-  library(shiny)
-  runGitHub('Shiny','insooAI',ref='main')
-library(shiny)
-runGitHub('Shiny','insooAI',ref='main')
+
