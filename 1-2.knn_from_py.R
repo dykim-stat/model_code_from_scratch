@@ -52,7 +52,8 @@ acc
 
 
 ## 4. 배운거 정리 & 느낀점 ##
-python과의비교 = "
+python과의비교 <- 
+"
   np.sort : sort
   np.argsort : order
   
