@@ -1,4 +1,4 @@
-#### knn 모델짜보기 ####
+#### 1. knn 모델짜보기 ####
 #### Language : R ####
 # source : https://anderfernandez.com/en/blog/code-knn-in-r/
 
@@ -38,6 +38,7 @@ nearest_neighbors = function(x, obs, k, FUN){
   ret = list(neighbor_ind,distances)
   return(ret)
 }
+
 
 x = iris[1:nrow(iris)-1,]
 obs = iris[nrow(iris),]
