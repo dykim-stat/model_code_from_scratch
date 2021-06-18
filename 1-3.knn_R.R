@@ -53,4 +53,4 @@ knn_prediction = function(x,y){
   pred = groups[groups==max(groups)]
   return(pred)
 }
-knn_prediction(x[ind,], 'Species')
+knn_prediction(x[ind,], 'Species')  
