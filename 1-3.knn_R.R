@@ -54,3 +54,6 @@ knn_prediction = function(x,y){
   return(pred)
 }
 knn_prediction(x[ind,], 'Species')  
+
+
+ 
