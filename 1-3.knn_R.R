@@ -39,7 +39,7 @@ nearest_neighbors = function(x, obs, k, FUN){
   return(ret)
 }
 
-
+## 2. sample data 만들기
 x = iris[1:nrow(iris)-1,]
 obs = iris[nrow(iris),]
 ind = nearest_neighbors(x[,1:4], obs[,1:4],3,euclidean_distance)[[1]]
